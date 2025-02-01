@@ -1,0 +1,33 @@
+{
+  "name": "couchdb-log-parse",
+  "version": "0.0.4",
+  "main": "parser.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "tap": "^15.1.6"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/couchdb-log-parse"
+  },
+  "keywords": [
+    "couchdb",
+    "log",
+    "parser",
+    "parse"
+  ],
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "license": "ISC",
+  "description": "A program for parsing CouchDB logs",
+  "tap": {
+    "statements": 88,
+    "branches": 80,
+    "functions": 77,
+    "lines": 90
+  }
+}
